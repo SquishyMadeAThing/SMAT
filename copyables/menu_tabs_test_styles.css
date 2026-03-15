@@ -1,0 +1,142 @@
+/* MENU TABS TEST STYLES */
+
+body {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    width: 101vw;
+}
+
+    .buttonrows {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #topbuttonrow {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            z-index: 3;
+            position: relative;
+        }
+
+        .topmenubuttons {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            border-radius: 100%;
+            margin-top: -55px;
+            margin-left: -1px;
+            margin-right: -1px;
+            width: 300px;
+            text-align: center;
+            padding-bottom: 7px;
+            background-color: rgb(77, 77, 77);
+            text-decoration-line: none;
+            color: white;
+            font-size: x-large;
+            border-bottom-style: solid;
+            border-bottom-width: 20px;
+            border-bottom-color: rgb(77, 77, 77);
+        }
+
+        #toprowshaper {
+            background-color: rgb(77, 77, 77);
+            z-index: 3;
+            position: relative;
+            height: 30px;
+        }
+
+    #betweenlayersshaper {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        z-index: 2;
+        position: relative;
+        height: 80px;
+        margin-top: -70px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+        #shaperleft {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            height: 80px;
+            width: 100px;
+            float: left;
+        }
+
+        #shapermiddle {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            background-color: rgb(51, 51, 51);
+            height: 80px;
+            width: 1350px;
+        }
+
+        #shaperright {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            height: 80px;
+            width: 100px;
+            float: right;
+        }
+
+    #bottombuttonrow {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        margin-left: -4px;
+        margin-right: -4px;
+        margin-top: -65px;
+        z-index: 1;
+        position: relative;
+    }
+
+        .bottommenubuttons {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            border-radius: 100%;
+            margin-top: -24px;
+            margin-left: -1px;
+            margin-right: -1px;
+            width: 300px;
+            text-align: center;
+            padding-bottom: 7px;
+            background-color: rgb(51, 51, 51);
+            text-decoration-line: none;
+            color: white;
+            font-size: x-large;
+            border-bottom-style: solid;
+            border-bottom-width: 20px;
+            border-bottom-color: rgb(51, 51, 51);
+        }
+
+        #bottomrowshaper {
+            height: 80px;
+            margin-top: -50px;
+            margin-left: 125px;
+            margin-right: 125px;
+
+
+        }
+
+        .bottomrowspacers {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            border-radius: 100%;
+            margin-top: -20px;
+            width: 130px;
+            text-align: center;
+            background-color: transparent;
+        }
+

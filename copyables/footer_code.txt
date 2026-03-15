@@ -1,0 +1,138 @@
+FOOTER HTML AND CSS FOR ALL PAGES
+(may need adjustments per page in CSS)
+
+HTML
+
+<!-- FOOTER FOR ALL PAGES -->
+
+    <div id="footer">
+
+        <div id="backtotop">
+            <a id="backtotopbutton" href="#"><strong>BACK TO TOP</strong></a>
+        </div>
+
+        <div id="footertop">
+            <h1 class="footertext footertitles">Probably Boring Information</h1>
+            <p class="footertext">Fun or serious, contact me: Email - <em>squishymadeathing@gmail.com</em>
+            <br>I don't have any social media except: YouTube - <em>SquishyMadeAThing</em>
+            <br>If you think I could make any accesibility improvements to this website, bonus if you know how, please email me and let me know!
+            </p>
+        </div>
+
+        <div id="footermiddle">
+            <div id="footermidleft">
+                <p class="footertext footertitles">ANTI AI / LLM ZONE</p>
+                <p class="footertext">I will never intetionally or knowingly use "A.I." tools in anything I create. It is my firm belief that creativity come from living minds, hearts, and hands.</p>
+            </div>
+            <div id="footermidright">
+                <p class="footertext footertitles">DID YA KNOW?</p>
+                <p class="footertext">I programmed as much as I could of this webiste with HTML5 & CSS3. Wanna see something cool? Right click anywhere on this page and use "Inspect" to see my code & notes in the console!</p>
+            </div>
+        </div>
+
+            <div id="footerbottom">
+                <p class="footertext"><strong>(C) 2026 SquishyMadeAThing</strong></p>
+                <p class="footertext">The overall design and layout of this website, including all hand drawn & digital graphics, belong to me unless labeled otherwise.</p> 
+            </div>
+    </div>
+
+
+CSS
+
+/* FOOTER */
+
+#footer {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+    border-top: 5px;
+    border-top-style: dotted;
+    border-top-color: white;
+}
+
+    .footertext {
+        color: gray;
+    }
+
+    .footertitles {
+        text-decoration-line: underline;
+    }
+
+    #backtotop {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    #footertop {
+        padding: 2%;
+        border: 0px;
+        margin: 0px;
+        text-align: center;
+        margin-bottom: 2%;
+        border: 5px;
+        border-style: solid;
+        border-color: gray;
+    }
+
+        #backtotopbutton {
+            text-decoration-line: none;
+            color: black;
+            outline-color: gray;
+            background-color: gray;
+            padding: 5px;
+        }
+
+    #footermiddle {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        margin-bottom: 2%;
+        display: flex;
+        
+    }
+
+        #footermidleft {
+            padding: 2%;
+            border: 0px;
+            margin: 0px;
+            float: left;
+            text-align: center;
+            border: 5px;
+            border-style: solid;
+            border-color: gray;
+            border-right: 2px;
+            border-right-style: solid;
+            border-right-color: gray;
+        }
+
+        #footermidright {
+            padding: 2%;
+            border: 0px;
+            margin: 0px;
+            float: right;
+            text-align: center;
+            border: 5px;
+            border-style: solid;
+            border-color: gray;
+            border-left: 2px;
+            border-left-style: solid;
+            border-left-color: gray;
+        }
+        
+    #footerbottom {
+        padding: 2%;
+        border: 0px;
+        margin: 0px;
+        text-align: center;
+        border: 5px;
+        border-style: solid;
+        border-color: gray;
+    }
