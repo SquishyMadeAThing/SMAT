@@ -1,0 +1,23 @@
+/* SMAT CURRENT PROJECTS PAGE STYLES */
+
+html {
+    background-color: gray;
+    background-image: url("graphics/branding & logos/background1,000x4,000px.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+}
+
+body {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+.maindivs {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
