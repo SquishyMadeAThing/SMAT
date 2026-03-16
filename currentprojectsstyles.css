@@ -21,3 +21,141 @@ body {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+.sectionlinebreaks {
+        border: 0px;
+        padding: 0px;
+        margin: 50px;
+    }
+
+    #currentprojectslogo {
+        width: 800px;
+    }
+
+    .cautiontape {
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+        background-color: #FFD842;
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+        width: 115vw;
+        height: 50px;
+    }
+
+        #cautiontape1 {
+            margin-left: -50px;
+            margin-right: -50px;
+        }
+
+        #cautiontape2 {
+            
+        }
+
+            .cautiontext {
+                color: white;
+                font-weight: bolder;
+            }
+
+    #mainwip {
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+        background-image: url('graphics/artwork/mainwip1500x900px.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        overflow: auto;
+        height: 675px;
+        width: 1125px;
+    }
+
+    #otherwiparea {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+        .otherwips {
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+        }
+
+            .wipcontent {
+                margin: 0px;
+                border: 0px;
+                padding: 0px;
+                padding-top: 180px;
+                color: white;
+            }
+
+                #ongoingwip{
+                    margin: 120px;
+                    border: 0px;
+                    padding: 0px;
+                    background-image: url('graphics/artwork/ongoingwip400x700px.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    text-align: center;
+                    overflow: auto;
+                    width: 400px;
+                    height: 700px;
+                }
+
+                #justforfunwip {
+                    margin: 120px;
+                    border: 0px;
+                    padding: 0px;
+                    background-image: url('graphics/artwork/forfunwipblock400x700px.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    text-align: center;
+                    overflow: auto;
+                    width: 400px;
+                    height: 700px;
+                } 
+                #futurepossibiltywip {
+                    margin: 120px;
+                    border: 0px;
+                    padding: 0px;
+                    background-image: url('graphics/artwork/possibilitywip400x700.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    text-align: center;
+                    overflow: auto;
+                    width: 400px;
+                    height: 700px;
+                }
+
+                #alsoongoingwip {
+                    margin: 120px;
+                    border: 0px;
+                    padding: 0px;
+                    background-image: url('graphics/artwork/2ongoingwip400x700px.png');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    text-align: center;
+                    overflow: auto;
+                    width: 400px;
+                    height: 700px;
+                    
+                }
+
+    #allprojectsbutton {
+        margin: 0px;
+        border: 0px;
+        padding: 20px;
+        color: white;
+        outline-color: gray;
+        background-color: gray;
+    }
+
+
+
