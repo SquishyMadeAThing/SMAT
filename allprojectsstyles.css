@@ -170,7 +170,97 @@ body {
             background-color: transparent;
         }
 
-honk
+/* PROJECT DISPLAYS */
+
+#projectdiplays {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* WIP PROJECTS LEFT SIDERS */
+
+.wipprojectsleft {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+    height: 320px;
+    width: 75vw;
+    float: inline-start;
+}
+
+    #wipproject1 {
+        border: 0px;
+        padding: 50px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-around;
+        float: inline-start;
+    }
+
+/* WIP PROJECTS RIGHT SIDERS */
+
+.wipprojectsright {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+    height: 320px;
+    width: 75vw;
+    float: inline-end;
+}
+
+    #wipproject2 {
+        border: 0px;
+        padding: 50px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-around;
+        float: inline-end;
+    }
+
+/* PROJECTS LEFT SIDERS */
+
+.projectsleft {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+    height: 320px;
+    width: 75vw;
+    float: inline-start;
+}
+
+    #project1 {
+        border: 0px;
+        padding: 50px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-around;
+        float: inline-start;
+    }
+
+/* PROJECTS RIGHT SIDERS */
+
+.projectsright {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+    height: 320px;
+    width: 75vw;
+    float: inline-end;
+}
+
+    #project2 {
+        border: 0px;
+        padding: 50px;
+        margin: 0px;
+        display: flex;
+        justify-content: space-around;
+        float: inline-end;
+    }
 
 /* FOOTER */
 
