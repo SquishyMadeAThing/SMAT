@@ -171,7 +171,181 @@ body {
         }
 
 /* PAGE TITLE */
+
+honk
+
 /* RECENT THOUGHT BUBBLES */
+
+/* thought bubbles */
+
+#recentthoughtbubbles {
+    margin-top: 50px;
+}
+
+    #recentthoughtbubtitle {
+        margin-bottom: -6%;
+    }
+
+    #thoughtbubblegroup {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+    }
+
+        #bubblerow1 {
+            display: flex;
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: -12%;
+        }
+
+            #bubblepost1 {
+                background-image: url('graphics/artwork/thoughtbubble400x250px2.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 400px;
+                height: 250px;
+                text-align: center;
+                overflow: auto;
+                margin-left: -2%;
+                color: black;
+            }
+
+            #bubblepost2 {
+                background-image: url('graphics/artwork/thoughtbubble400x250px.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 400px;
+                height: 250px;
+                text-align: center;
+                overflow: auto;
+                justify-self: right;
+                margin-bottom: -5%;
+                margin-right: -5%;
+                color: black;
+            }
+
+        #bubblerow2 {
+            display: flex;
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            justify-content: center;
+            width: 100%;
+        }
+
+            #bubblepost3 {
+                background-image: url('graphics/artwork/thoughtbubble300x150px.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 300px;
+                height: 150px;
+                text-align: center;
+                overflow: auto;
+                color: black;
+            }
+
+            #bubblepost4 {
+                background-image: url('graphics/artwork/thoughtbubble150x100px.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 150px;
+                height: 100px;
+                text-align: center;
+                overflow: auto;
+                margin-top: 11%;
+                color: black;
+            }
+
+        #bubblerow3 {
+            display: flex;
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+            #bubblepost5 {
+                background-image: url('graphics/artwork/thoughtbubble400x250px.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 400px;
+                height: 250px;
+                text-align: center;
+                overflow: auto;
+                margin-left: -10%;
+                margin-top: -3%;
+                color: black;
+            }
+            
+            #bubblepost6 {
+                background-image: url('graphics/artwork/thoughtbubble300x150px.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 300px;
+                height: 150px;
+                text-align: center;
+                overflow: auto;
+                margin-top: 6%;
+                color: black;
+            }
+
+            #bubblepost7 {
+                background-image: url('graphics/artwork/thoughtbubble400x250px2.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 400px;
+                height: 250px;
+                text-align: center;
+                overflow: auto;
+                margin-right: -8%;
+                margin-top: -2%;
+                color: black;
+            }
+
+                    .thoughtbubbles {
+                    margin: 0px;
+                    border: 0px;
+                    padding: 0px;
+                }
+
+    #thoughtbubblebuttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+        #allthoughtbubblebutton {
+            float: left;
+            width: 200px;
+            height: 60px;
+            text-align: center;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        #thoughtbubcontactbutton {
+            float: right;
+            width: 200px;
+            height: 60px;
+            text-align: center;
+            padding: 10px;
+            margin: 20px;
+        }
+
+
 /* ALL THOUGHT BUBBLES */
 /* LARGE SCROLLER AND SIDE BUTTONS FOR TOPIC JUMPERS */
 /* TOPIC SPECIFIC SCROLLERS */
