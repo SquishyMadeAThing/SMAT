@@ -388,7 +388,8 @@ body {
                     padding: 10px;
                     border: 0px;
                     margin: 0px;
-                    min-height; 100px;
+                    min-height: 100px;
+                    max-height: auto;
                     border-bottom: 1px;
                     border-style: solid;
                     border-color: blueviolet;
