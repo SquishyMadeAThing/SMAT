@@ -372,6 +372,10 @@ body {
             margin: 0px;
         }
 
+            #scrollablepostlist {
+                background-color: crimson;
+            }
+
     #topicbuttons {
         background-color: gray; 
         padding: 0px;
