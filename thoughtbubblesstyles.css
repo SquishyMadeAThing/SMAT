@@ -338,22 +338,38 @@ body {
 
 #allthoughtbubs {
     background-color: pink;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
 }
 
     #allbubtitle {
         background-color: green;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
     }
 
         #allbubsbelow {
             background-color: lightblue;
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            color: white;
         }
 
     #scrollers {
         background-color: orange;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
     }
 
     #topicbuttons {
         background-color: gray; 
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
     }
 
 /* TOPIC SPECIFIC SCROLLERS */
