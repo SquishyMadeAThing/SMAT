@@ -179,10 +179,21 @@ body {
     margin-top: 100px;
 }
 
+#introduction {
+    border: 0px;
+    padding: 0px;
+    margin: 20px;
+    margin-right: 120px;
+    margin-left: 120px;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+}
+
 /* RECENT THOUGHT BUBBLES */
 
 #recentthoughtbubbles {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
     #recentthoughtbubtitle {
@@ -323,34 +334,8 @@ body {
                     padding: 0px;
                 }
 
-    #thoughtbubblebuttons {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-        #allthoughtbubblebutton {
-            float: left;
-            width: 200px;
-            height: 60px;
-            text-align: center;
-            padding: 10px;
-            margin: 20px;
-        }
-
-        #thoughtbubcontactbutton {
-            float: right;
-            width: 200px;
-            height: 60px;
-            text-align: center;
-            padding: 10px;
-            margin: 20px;
-        }
-
-
-/* ALL THOUGHT BUBBLES */
 /* LARGE SCROLLER AND SIDE BUTTONS FOR TOPIC JUMPERS */
+
 /* TOPIC SPECIFIC SCROLLERS */
 
 /* FOOTER */
