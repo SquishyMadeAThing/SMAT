@@ -368,20 +368,20 @@ body {
         #bigscrollarea {
             background-color: turquoise;
             padding: 0px;
-            border: 0px;
+            border: 7px;
             margin: 0px;
             width: 60vw;
             height: 600px;
             overflow-y: auto;
+            border-color: white;
+            border-style: solid;
         }
 
             #scrollablepostlist {
                 background-color: crimson;
                 padding: 0px;
-                border: 10px;
+                border: 0px;
                 margin: 0px;
-                border-color: white;
-                border-style: solid;
             }
 
                 .allposts {
@@ -390,7 +390,7 @@ body {
                     margin: 0px;
                     min-height: 100px;
                     max-height: max-content;
-                    border-bottom: 1px;
+                    border-bottom: 3px;
                     border-style: solid;
                     border-color: blueviolet;
                 }
