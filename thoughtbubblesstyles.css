@@ -358,12 +358,19 @@ body {
             color: white;
         }
 
-    #scrollers {
+    #scroller {
         background-color: orange;
         padding: 0px;
         border: 0px;
         margin: 0px;
     }
+
+        #bigscrollarea {
+            background-color: turquoise;
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+        }
 
     #topicbuttons {
         background-color: gray; 
