@@ -367,8 +367,8 @@ body {
         width: 60vw;
         height: 600px;
         overflow-y: auto;
-        text-align: center;
-        justify-self: center;
+        margin-left: 200vw;
+        margin-right: 200vw;
 
         }
 
