@@ -336,6 +336,26 @@ body {
 
 /* LARGE SCROLLER AND SIDE BUTTONS FOR TOPIC JUMPERS */
 
+#allthoughtbubs {
+    background-color: pink;
+}
+
+    #allbubtitle {
+        background-color: green;
+    }
+
+        #allbubsbelow {
+            background-color: lightblue;
+        }
+
+    #scrollers {
+        background-color: orange;
+    }
+
+    #topicbuttons {
+        background-color: gray; 
+    }
+
 /* TOPIC SPECIFIC SCROLLERS */
 
 /* FOOTER */
