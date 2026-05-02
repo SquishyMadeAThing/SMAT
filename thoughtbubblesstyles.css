@@ -368,7 +368,8 @@ body {
         height: 600px;
         overflow-y: auto;
         text-align: center;
-        
+        justify-self: center;
+
         }
 
             #scrollablepostlist {
