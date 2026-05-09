@@ -404,6 +404,9 @@ body {
         padding: 0px;
         border: 0px;
         margin: 0px;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        display: flex;
     }
 
 /* TOPIC SPECIFIC SCROLLERS */
