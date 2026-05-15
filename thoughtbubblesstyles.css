@@ -377,9 +377,6 @@ body {
         width: 60vw;
         height: 600px;
         overflow-y: auto;
-        margin-left: 20vw;
-        margin-right: 20vw;
-
         }
 
             #scrollablepostlist {
