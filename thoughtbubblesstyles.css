@@ -416,7 +416,7 @@ body {
     border: 0px;
     margin: 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -424,7 +424,7 @@ body {
         background-color: crimson;
         padding: 0px;
         border: 0px;
-        margin: 10vw;
+        margin: 5vw;
     }
 
     #topicprojectupdates {
