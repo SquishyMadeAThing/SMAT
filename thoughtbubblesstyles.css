@@ -405,6 +405,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        margin-left: 20vw;
     }
 
 /* TOPIC SPECIFIC SCROLLERS */
