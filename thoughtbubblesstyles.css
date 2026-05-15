@@ -377,6 +377,7 @@ body {
         width: 60vw;
         height: 600px;
         overflow-y: auto;
+        margin-right: 5vw;
         }
 
             #scrollablepostlist {
@@ -405,7 +406,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        margin-left: 20vw;
+        margin-left: 5vw;
     }
 
 /* TOPIC SPECIFIC SCROLLERS */
