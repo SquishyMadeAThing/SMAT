@@ -416,6 +416,8 @@ body {
     border: 0px;
     margin: 0px;
     display: flex;
+    justify-items: space-between;
+    width: 100vw;
 }
 
     .topicscrollpostlists {
