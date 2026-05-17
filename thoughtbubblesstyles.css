@@ -451,77 +451,86 @@ body {
         text-decoration: underline;
     }
 
-    #topicprojectupdates {
-        background-color: lightgray;
-        padding: 0px;
-        border: 5px;
-        margin: 0px;
-        border-color: lightskyblue;
-        border-style: groove;
-        width: 30vw;
-        height: 440px;
-        overflow-y: auto;
-        }
+    h4 {
+        text-decoration: underline;
+    }
 
-        #topicrandomphotos {
-        background-color: lightgray;
-        padding: 0px;
-        border: 5px;
-        margin: 0px;
-        border-color: lightskyblue;
-        border-style: groove;
-        width: 30vw;
-        height: 440px;
-        overflow-y: auto;
-        }
+    .postdates {
+        font-size: small;
+        margin-top: -15px;
+    }
 
-        #topicneatstuff {
-        background-color: lightgray;
-        padding: 0px;
-        border: 5px;
-        margin: 0px;
-        border-color: lightskyblue;
-        border-style: groove;
-        width: 30vw;
-        height: 440px;
-        overflow-y: auto;
-        }
+        #topicprojectupdates {
+            background-color: lightgray;
+            padding: 0px;
+            border: 5px;
+            margin: 0px;
+            border-color: lightskyblue;
+            border-style: groove;
+            width: 30vw;
+            height: 440px;
+            overflow-y: auto;
+            }
 
-        #topicwebcomics {
-        background-color: lightgray;
-        padding: 0px;
-        border: 5px;
-        margin: 0px;
-        border-color: lightskyblue;
-        border-style: groove;
-        width: 30vw;
-        height: 440px;
-        overflow-y: auto;
-        }
+            #topicrandomphotos {
+            background-color: lightgray;
+            padding: 0px;
+            border: 5px;
+            margin: 0px;
+            border-color: lightskyblue;
+            border-style: groove;
+            width: 30vw;
+            height: 440px;
+            overflow-y: auto;
+            }
 
-        #topicoddthoughts {
-        background-color: lightgray;
-        padding: 0px;
-        border: 5px;
-        margin: 0px;
-        border-color: lightskyblue;
-        border-style: groove;
-        width: 30vw;
-        height: 440px;
-        overflow-y: auto;
-        }
+            #topicneatstuff {
+            background-color: lightgray;
+            padding: 0px;
+            border: 5px;
+            margin: 0px;
+            border-color: lightskyblue;
+            border-style: groove;
+            width: 30vw;
+            height: 440px;
+            overflow-y: auto;
+            }
 
-        #topicotherthings {
-        background-color: lightgray;
-        padding: 0px;
-        border: 5px;
-        margin: 0px;
-        border-color: lightskyblue;
-        border-style: groove;
-        width: 30vw;
-        height: 440px;
-        overflow-y: auto;
-        }
+            #topicwebcomics {
+            background-color: lightgray;
+            padding: 0px;
+            border: 5px;
+            margin: 0px;
+            border-color: lightskyblue;
+            border-style: groove;
+            width: 30vw;
+            height: 440px;
+            overflow-y: auto;
+            }
+
+            #topicoddthoughts {
+            background-color: lightgray;
+            padding: 0px;
+            border: 5px;
+            margin: 0px;
+            border-color: lightskyblue;
+            border-style: groove;
+            width: 30vw;
+            height: 440px;
+            overflow-y: auto;
+            }
+
+            #topicotherthings {
+            background-color: lightgray;
+            padding: 0px;
+            border: 5px;
+            margin: 0px;
+            border-color: lightskyblue;
+            border-style: groove;
+            width: 30vw;
+            height: 440px;
+            overflow-y: auto;
+            }
 
 /* FOOTER */
 
