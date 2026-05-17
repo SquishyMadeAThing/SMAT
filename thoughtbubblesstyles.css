@@ -337,21 +337,22 @@ body {
 /* LARGE SCROLLER AND SIDE BUTTONS FOR TOPIC JUMPERS */
 
 #allthoughtbubs {
-    background-color: pink;
     padding: 0px;
     border: 0px;
     margin: 0px;
 }
 
     #allbubtitle {
-        background-color: green;
         padding: 0px;
         border: 0px;
         margin: 0px;
+        display: flex;
+        justify-content: center;
+        width: 60vw;
+        margin-bottom: 20px;
     }
 
         #allbubsbelow {
-            background-color: lightblue;
             padding: 0px;
             border: 0px;
             margin: 0px;
@@ -368,12 +369,12 @@ body {
     }
 
     #scroller {
-        background-color: turquoise;
+        background-color: lightgray;
         padding: 0px;
         border: 5px;
         margin: 0px;
-        border-color: white;
-        border-style: solid;
+        border-color: lightskyblue;
+        border-style: groove;
         width: 60vw;
         height: 600px;
         overflow-y: auto;
@@ -381,7 +382,6 @@ body {
         }
 
             #scrollablepostlist {
-                background-color: crimson;
                 padding: 0px;
                 border: 0px;
                 margin: 0px;
@@ -394,12 +394,11 @@ body {
                     min-height: 100px;
                     max-height: max-content;
                     border-bottom: 3px;
-                    border-style: solid;
-                    border-color: blueviolet;
+                    border-style: dashed;
+                    border-color: plum;
                 }
 
-    #topicbuttons {
-        background-color: gray; 
+    #topicbuttonarea {
         padding: 0px;
         border: 0px;
         margin: 0px;
@@ -408,6 +407,27 @@ body {
         justify-content: space-around;
         margin-left: 5vw;
     }
+
+        #topictitle {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            color: white;
+            text-decoration: underline;
+        }
+
+        .topics {
+            padding: 6px;
+            border: 5px;
+            margin: 0px;
+            text-decoration: none;
+            font-size: large;
+            color: black;
+            background-color: white;
+            border-color: black;
+            border-style: groove;
+            border-radius: 10%;
+        }
 
 /* TOPIC SPECIFIC SCROLLERS */
 
@@ -421,81 +441,85 @@ body {
 }
 
     .topicscrollpostlists {
-        background-color: crimson;
         padding: 0px;
         border: 0px;
         margin: 5vw;
     }
 
+    .topicscrolltitles{
+        color: white;
+        text-decoration: underline;
+    }
+
     #topicprojectupdates {
-        background-color: lightgreen;
+        background-color: lightgray;
         padding: 0px;
         border: 5px;
         margin: 0px;
-        border-color: white;
-        border-style: solid;
+        border-color: lightskyblue;
+        border-style: groove;
         width: 30vw;
-        height: 300px;
+        height: 440px;
         overflow-y: auto;
         }
 
         #topicrandomphotos {
-        background-color: lightgreen;
+        background-color: lightgray;
         padding: 0px;
         border: 5px;
         margin: 0px;
-        border-color: white;
-        border-style: solid;
+        border-color: lightskyblue;
+        border-style: groove;
         width: 30vw;
-        height: 300px;
+        height: 440px;
         overflow-y: auto;
         }
 
         #topicneatstuff {
-        background-color: lightgreen;
+        background-color: lightgray;
         padding: 0px;
         border: 5px;
         margin: 0px;
-        border-color: white;
-        border-style: solid;
+        border-color: lightskyblue;
+        border-style: groove;
         width: 30vw;
-        height: 300px;
+        height: 440px;
         overflow-y: auto;
         }
 
         #topicwebcomics {
-        background-color: lightgreen;
+        background-color: lightgray;
         padding: 0px;
         border: 5px;
         margin: 0px;
-        border-color: white;
-        border-style: solid;
+        border-color: lightskyblue;
+        border-style: groove;
         width: 30vw;
-        height: 300px;
+        height: 440px;
         overflow-y: auto;
         }
 
         #topicoddthoughts {
-        background-color: lightgreen;
+        background-color: lightgray;
         padding: 0px;
         border: 5px;
         margin: 0px;
-        border-color: white;
-        border-style: solid;
+        border-color: lightskyblue;
+        border-style: groove;
         width: 30vw;
-        height: 300px;
+        height: 440px;
         overflow-y: auto;
         }
 
         #topicotherthings {
-        background-color: lightgreen;
+        background-color: lightgray;
         padding: 0px;
         border: 5px;
         margin: 0px;
-        border-color: white;
-        border-style: solid;
+        border-color: lightskyblue;
+        border-style: groove;
         width: 30vw;
-        height: 300px;
+        height: 440px;
         overflow-y: auto;
         }
 
