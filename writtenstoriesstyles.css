@@ -172,9 +172,63 @@ body {
 
 /* PAGE TITLE */
 
+#pagetitlearea {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+    #writtenstoriestitle {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+    }
+
 /* JUMP BUTTONS */
 
+#jumpbuttonsarea {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+    .jumpbuttons {
+        padding: 10px;
+        border: 5px;
+        margin: 0px;
+        background-color: gray;
+        color: black;
+        font-size: large;
+        border-style: groove;
+        border-radius: 15%;
+        border-color: black;
+        text-decoration: none;
+    }
+
 /* INTRO AND ARTWORK */
+
+#introandartarea {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+    #introparagraph {
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: x-large;
+        font-weight: bolder;
+        color: white;
+    }
+
+    #writingartwork {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+    }
 
 /* STORY SCROLLER WITH JUMP TABS */
 
