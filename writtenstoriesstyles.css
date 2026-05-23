@@ -232,6 +232,115 @@ body {
 
 /* STORY SCROLLER WITH JUMP TABS */
 
+#storyscrollertitle {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+#storyscrollerarea {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+
+}
+
+    #storyscroller {
+        padding: 0px;
+        border: 10px;
+        margin: 25px;
+        background-color: white;
+        width: 50vw;
+        border-color: black;
+        border-style: groove;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+        .storysection {
+            padding: 15px;
+            border: 0px;
+            margin: 0px;
+            background-color: gray;
+            border-bottom:5px;
+            border-color: black;
+            border-style: solid;
+            margin-bottom: 20px;
+            height: 70vh;
+            overflow-y: scroll;
+        }
+
+            h3 {
+                padding: 0px;
+                border: 0px;
+                margin: 0px;
+                text-decoration: underline;
+                margin-bottom: 4px;
+            }
+
+            h4 {
+                padding: 0px;
+                border: 0px;
+                margin: 0px;
+            }
+
+    .scrollerbuttonsections {
+        padding: 10px;
+        border: 0px;
+        margin: 0px;
+        background-color: green;
+        width: 15vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+        #leftscrollerbuttons {
+            padding: 5px;
+            border: 0px;
+            margin: 0px;
+            background-color: orange;
+            margin-right: 0px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        #rightscrollerbuttons {
+            padding: 5px;
+            border: 0px;
+            margin: 0px;
+            background-color: lightseagreen;
+            margin-left: 0px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+            .leftscrollbutton {
+                padding: 0px;
+                border: 0px;
+                margin: 0px;
+                background-color: yellow;
+                font-size: x-large;
+                font-weight: bold;
+            }
+
+            .rightscrollbutton {
+                padding: 0px;
+                border: 0px;
+                margin: 0px;
+                background-color: pink;
+                font-size: x-large;
+                font-weight: bold;
+            }
+
 /* BOOKSHELVES */
 
 /* FOOTER */
