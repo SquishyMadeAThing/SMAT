@@ -377,6 +377,100 @@ body {
 
 /* BOOKSHELVES */
 
+#bookshelves {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+    .mybookshelves {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+        #topshelf{
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            width: 100vw;
+        }
+
+        #secondshelf {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            margin-top: -10px;
+            margin-bottom: -10px;
+            width: 96vw;
+            background-image: url("graphics/artwork/emptybookshelf4000x1600px.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            padding-top: 30px;
+                }
+
+            .bookplacements {
+                padding: 10px;
+                border: 5%;
+                margin: 40px;
+                margin-top: 70px;
+                margin-bottom: 70px;
+                border-color: black;
+                border-style: solid;
+                background-color: tan;
+            }
+
+                .booktitles {
+                    padding: 0px;
+                    border: 0px;
+                    margin: 0px;
+                }
+
+                .bookimages {
+                    padding: 0px;
+                    border: 0px;
+                    margin: 0px;
+                    height: 200px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+
+                .bookparagraphs {
+                    padding: 0px;
+                    border: 0px;
+                    margin: 0px;
+                    margin-bottom: 10px;
+                    
+                }
+
+                .bookbuttons {
+                    padding: 0px;
+                    border: 2px;
+                    margin: 0px;
+                    background-color: burlywood;
+                    border-style: solid;
+                    border-color: black;
+                    border-radius: 20%;
+                }
+
+                    .bookbuttontext {
+                        color: black;
+                        text-decoration: none;
+                    }
+
+        #bottomshelf {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            width: 100vw;
+        }
+
 /* FOOTER */
 
 #footer {
