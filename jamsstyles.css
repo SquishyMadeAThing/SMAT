@@ -170,7 +170,55 @@ body {
             background-color: transparent;
         }
 
-/* stuff here */
+/* PAGE TITLE */
+
+#jamspagetitle {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+/* ARTWORK, INTRO, INSTRUCTIONS */
+
+#artandintrorow {
+    padding: 0px;
+    border:0px;
+    margin: 0px;
+}
+
+    #leftart {
+        padding: 0px;
+        border:0px;
+        margin: 0px;
+    }
+
+    #intro {
+        padding: 0px;
+        border:0px;
+        margin: 0px;
+    }
+
+    #rightart {
+        padding: 0px;
+        border:0px;
+        margin: 0px;
+    }
+
+#instructions {
+    padding: 0px;
+    border:0px;
+    margin: 0px;
+}
+
+    #instructparagraph {
+        padding: 0px;
+        border:0px;
+        margin: 0px;
+    }
+
+/* MP3 PLAYER AND BUTTONS */
+
+/* CD CASE */
 
 /* FOOTER */
 
