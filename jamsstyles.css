@@ -182,38 +182,52 @@ body {
 
 #artandintrorow {
     padding: 0px;
-    border:0px;
-    margin: 0px;
+    border: 0px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
     #leftart {
         padding: 0px;
-        border:0px;
+        border: 0px;
         margin: 0px;
     }
 
     #intro {
         padding: 0px;
-        border:0px;
-        margin: 0px;
+        border: 0px;
+        margin: 10px;
+        color: white;
+        font-size: large;
+        width: 75vw;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     #rightart {
         padding: 0px;
-        border:0px;
+        border: 0px;
         margin: 0px;
     }
 
 #instructions {
     padding: 0px;
-    border:0px;
-    margin: 0px;
+    border: 0px;
+    margin: 10px;
+    border-top: 5px;
+    border-top-style: dotted;
+    border-top-color: white;
+    padding-top: 15px;
 }
 
     #instructparagraph {
         padding: 0px;
-        border:0px;
+        border: 0px;
         margin: 0px;
+        color: white;
+        font-size: x-large;
     }
 
 /* MP3 PLAYER AND BUTTONS */
