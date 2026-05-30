@@ -204,6 +204,7 @@ body {
         width: 75vw;
         margin-left: 15px;
         margin-right: 15px;
+        text-align: center;
     }
 
     #rightart {
@@ -232,7 +233,115 @@ body {
 
 /* MP3 PLAYER AND BUTTONS */
 
+#mp3andbuttons {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+    #mp3playerarea {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        background-color: gray;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        border-top: 10px;
+        border-bottom: 10px;
+        border-color: black;
+        border-style: ridge;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+        #mp3player {
+            padding: 40px;
+            border: 8px;
+            margin: 0px;
+            background-color: sienna;
+            border-color: brown;
+            border-style: solid;
+            width: 25vw;
+            border-radius: 15%;
+        }
+
+            #audioscroller {
+                padding: 0px;
+                border: 4px;
+                margin: 0px;
+                background-color: white;
+                overflow-y: scroll;
+                height: 300px;
+                border-radius: 15%;
+                margin-bottom: 30px;
+                border-color: brown;
+                border-style: solid;
+            }
+
+                .mp3songs {
+                    padding: 10px;
+                    border: 0px;
+                    margin: 0px;
+                    background-color: white;
+                    border-bottom: 4px;
+                    border-style: solid;
+                    border-color: black;
+                }
+
+        #playlistbuttons {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .listbuttons {
+                padding: 10px;
+                border: 4px;
+                margin: 0px;
+                color: white;
+                background-color: gray;
+                border-radius: 100%;
+                border-color: brown;
+                border-style: solid;
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                font-weight: bolder;
+            }
+
+                #leftbutton {
+
+                }
+
+                #topbutton {
+                    
+                }
+
+                #rightbutton {
+                    
+                }
+
+            #ytbuttonarea {
+                padding: 10px;
+                border: 0px;
+                margin: 0px;
+                display: flex;
+                justify-content: center;
+            }
+
+                #bottombutton {
+
+                }
+
+
 /* CD CASE */
+
+#cdcase {
+    
+}
 
 /* FOOTER */
 
