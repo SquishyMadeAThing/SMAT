@@ -218,7 +218,7 @@ body {
     border: 0px;
     margin: 10px;
     border-top: 5px;
-    border-top-style: dotted;
+    border-top-style: dashed;
     border-top-color: white;
     padding-top: 15px;
 }
@@ -339,9 +339,87 @@ body {
 
 /* CD CASE */
 
+#cdcasetitle {
+    padding: 0px;
+    border: 0px;
+    margin: 20px;
+    color: white;
+    border-bottom: 5px;
+    border-color: white;
+    border-style: dashed;
+    padding-bottom: 10px;  
+    text-align: center;      
+    }
+
 #cdcase {
     
 }
+
+        .cdleft {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            margin-left: 100px;
+            margin-bottom: -50px;
+        }
+
+        .cdright {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            margin-right: 100px;
+            margin-bottom: -50px;
+        }
+
+            .cdart {
+                padding: 0px;
+                border: 4px;
+                margin: 0px;
+                height: 250px;
+                border-radius: 100%;
+                border-color: white;
+                border-style: solid;
+                position: relative;
+                z-index: 2;
+            }
+
+            .cdinfoleft {
+                padding: 0px;
+                border: 4px;
+                margin: 0px;
+                background-color: gray;
+                border-color: white;
+                border-style: dashed;
+                border-radius: 15%;
+                height: 150px;
+                width: 425px;
+                padding-left: 100px;
+                padding-right: 25px;
+                margin-left: -80px;
+                margin-top: 50px;
+            }
+
+            .cdinforight {
+                padding: 0px;
+                border: 4px;
+                margin: 0px;
+                background-color: gray;
+                border-color: white;
+                border-style: dashed;
+                border-radius: 15%;
+                height: 150px;
+                width: 425px;
+                padding-right: 100px;
+                padding-left: 25px;
+                margin-right: -80px;
+                margin-top: 50px;
+            }
 
 /* FOOTER */
 
