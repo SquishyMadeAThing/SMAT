@@ -228,6 +228,8 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
         #wipimg {
@@ -288,11 +290,304 @@ body {
 
 /* DEMOS */
 
+#gamedemotitle {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: underline;
+}
+
+#gamedemoarea {
+    padding: 40px;
+    border: 0px;
+    margin: 0px;
+    background-image: url("graphics/artwork/placeholderbackground.png");
+    background-repeat: repeat;
+    border-top: 8px;
+    border-bottom: 8px;
+    border-color: black;
+    border-style: groove;
+    width: 100vw;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+}
+
+    .demoblocks {
+        padding: 40px;
+        border: 4px;
+        margin: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: darkgray;
+        border-style: solid;
+        border-color: white;
+        border-radius: 5%;
+        width: min-content;
+    }
+
+    .demoimages {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        margin-bottom: 10px;
+        height: 200px;
+    }
+
+    .demotitles {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        text-decoration:  underline;
+        margin-bottom: 10px;
+    }
+
+    .demopgphs {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .demobuttons {
+        padding: 3px;
+        border: 4px;
+        margin: 0px;
+        text-decoration: none;
+        background: white;
+        color: black;
+        border-color: black;
+        border-style: groove;
+    }
+
 /* FINISHED GAME PROJECTS */
+
+#finishedgamestitle {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    margin-right: 50px;
+    text-align: right;
+    color: white;
+    text-decoration: underline;
+}
+
+#finishedgamearea {
+    padding: 40px;
+    border: 0px;
+    margin: 0px;
+    background-image: url("graphics/artwork/placeholderbackground.png");
+    background-repeat: repeat;
+    border-top: 8px;
+    border-bottom: 8px;
+    border-color: black;
+    border-style: groove;
+    width: 100vw;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+}
+
+    .gameblocks {
+        padding: 40px;
+        border: 4px;
+        margin: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: darkgray;
+        border-style: solid;
+        border-color: white;
+        border-radius: 5%;
+        width: min-content;
+    }
+
+    .gameimages {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        margin-bottom: 10px;
+        height: 200px;
+    }
+
+    .gametitles {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        text-decoration:  underline;
+        margin-bottom: 10px;
+    }
+
+    .gamepgphs {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .gamebuttons {
+        padding: 3px;
+        border: 4px;
+        margin: 0px;
+        text-decoration: none;
+        background: white;
+        color: black;
+        border-color: black;
+        border-style: groove;
+    }
+
 
 /* DIGITAL DESIGN STUFF */
 
+#digdesigntitle {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: underline;
+}
+
+#digdesignarea {
+    padding: 40px;
+    border: 0px;
+    margin: 0px;
+    background-image: url("graphics/artwork/placeholderbackground.png");
+    background-repeat: repeat;
+    border-top: 8px;
+    border-bottom: 8px;
+    border-color: black;
+    border-style: groove;
+    width: 100vw;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+}
+
+    .digdesignblocks {
+        padding: 40px;
+        border: 4px;
+        margin: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: darkgray;
+        border-style: solid;
+        border-color: white;
+        border-radius: 5%;
+        width: min-content;
+    }
+
+    .digdesignimages {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        margin-bottom: 10px;
+        height: 200px;
+    }
+
+    .digdesigntitles {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        text-decoration:  underline;
+        margin-bottom: 10px;
+    }
+
+    .digdesignpgphs {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .digdesignbuttons {
+        padding: 3px;
+        border: 4px;
+        margin: 0px;
+        text-decoration: none;
+        background: white;
+        color: black;
+        border-color: black;
+        border-style: groove;
+    }
+
+
 /* CODING / PROGRAMMING STUFF */
+
+#codeprogtitle {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    margin-right: 50px;
+    text-align: right;
+    color: white;
+    text-decoration: underline;
+}
+
+#codeprogarea {
+    padding: 40px;
+    border: 0px;
+    margin: 0px;
+    background-image: url("graphics/artwork/placeholderbackground.png");
+    background-repeat: repeat;
+    border-top: 8px;
+    border-bottom: 8px;
+    border-color: black;
+    border-style: groove;
+    width: 100vw;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+}
+
+    .codeprogblocks {
+        padding: 40px;
+        border: 4px;
+        margin: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: darkgray;
+        border-style: solid;
+        border-color: white;
+        border-radius: 5%;
+        width: min-content;
+    }
+
+    .codeprogimages {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        margin-bottom: 10px;
+        height: 200px;
+    }
+
+    .codeprogtitles {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        text-decoration:  underline;
+        margin-bottom: 10px;
+    }
+
+    .codeprogpgphs {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .codeprogbuttons {
+        padding: 3px;
+        border: 4px;
+        margin: 0px;
+        text-decoration: none;
+        background: white;
+        color: black;
+        border-color: black;
+        border-style: groove;
+    }
+
 
 /* FOOTER */
 
