@@ -214,47 +214,77 @@ body {
 /* CURRENT W.I.P. */
 
 #wiparea {
-    background-color: lightseagreen;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    background-color: black;
     padding: 30px;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
 }
 
-    #wipinfo {
+    #wipinfoandimg {
         padding: 0px;
         border: 0px;
         margin: 0px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
         #wipimg {
             padding: 0px;
             border: 0px;
-            margin: 0px;
+            margin: 5px;
+            margin-left: 15px;
+            border-style: solid;
+            border-color: white;
+            height: 250px;
         }
 
-        #wipherading {
+        #wipheading {
             padding: 0px;
             border: 0px;
-            margin: 0px;
+            margin: 5px;
+            text-decoration: underline;
+            color: white;
         }
 
         #wipparagraph {
             padding: 0px;
             border: 0px;
-            margin: 0px;
+            margin: 5px;
+            color: white;
+            text-align: right;
+            overflow-y: scroll;
+            height: 250px;
         }
 
         #wipbutton {
-            padding: 0px;
-            border: 0px;
-            margin: 0px;
-            background-color: lightsteelblue;
+            padding: 7px;
+            border: 5px;
+            margin: 5px;
+            background-color: white;
+            border-style: groove;
+            border-color: black;
+            text-decoration: none;
+            color: black;
         }
 
 /* PLAYABLE ON SITE */
+
+#playableonsitearea {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    background-color: black;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-style: solid;
+    border-color: yellow;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
 
 /* DEMOS */
 
