@@ -357,11 +357,220 @@ body {
 
 /* ANIMS AND ANIMATICS */
 
-`
+#animstitlearea {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    background-image: url("graphics/artwork/animreel800x100px.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+    #animstitle {
+        padding: 50px;
+        border: 0px;
+        margin: 30px;
+        color: antiquewhite;
+        background-color: black;
+    }
+
+#animsarea {
+    padding: 0px;
+    border: 10px;
+    margin: 0px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-color: black;
+    border-style: groove;
+    margin-top: 20px;
+}
+
+    #animsscroller {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        width: 20vw;
+        height: 70vh;
+        overflow-y: scroll;
+    }
+
+        .anims {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            background-color: black;
+            color: white;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-bottom: 4px;
+            border-style: solid;
+            border-color: gray;
+        }
+
+            .animsinfos {
+                padding: 0px;
+                border: 0px;
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            .animsplaybuttons {
+                padding: 0px;
+                border: 4px;
+                margin: 0px;
+                color: black;
+                background-color: white;
+                border-color: black;
+                border-style: groove;
+            }
+
+        #animsplayer {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        width: 70vw;
+    }
+
+        #playerplaceholder {
+            width: 70vw;
+        }
+
+    #animsyoutubebutton {
+        padding: 3px;
+        border: 4px;
+        margin: 0px;
+        color: black;
+        background-color: white;
+        border-color: black;
+        border-style: groove;
+    }
 
 /* COMICS */
 
+#comictitlearea {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+    #comictitle {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    color: white;
+    text-decoration: underline;
+}
+
+    #comictitleinfo {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    color: white;
+    margin-top: 15px;
+}
+
+#uppercomicarea {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+    #comicjumpbutarea {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    display: flex;
+    width: 40vw;
+    flex-wrap: wrap;
+}
+
+    .comicjumpbuttons {
+        padding: 4px;
+        border: 4px;
+        margin: 30px;
+        color: antiquewhite;
+        background-color: black;
+        border-style: groove;
+        border-color: black;
+    }
+
+    #latestcomic {
+    padding: 0px;
+    border: 0px;
+    margin: 30px;
+    width: 40vw;
+}
+    #latestcomicimage {
+    padding: 4px;
+    border: 0px;
+    margin: 0px;
+    width: 300px;
+}
+    
+    #latestcomicinfo {
+    padding: 4px;
+    border: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#lowercomicarea {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    margin-top: 70px;
+}
+
+    #comicsgallery {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    .comicssections {
+        padding: 0px;
+        border: 0px;
+        margin: 20px;
+    }
+        .comicsimages {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+        }
+
+        .comicscaps {
+            padding: 0px;
+            border: 0px;
+            margin: 0px;
+            color: white;
+        }
+
 /* BEANS */
+
+#beansarea {
+    padding: 50px;
+    border: 10px;
+    margin: 0px;
+    color: white;
+    background-color: black;
+    border-color: yellow;
+    border-style: solid;
+}
 
 /* FOOTER */
 
