@@ -171,24 +171,49 @@ body {
         }
 
 /* SECTIONS */
-]
+
+.sectiontitles {
+    padding: 10px;
+    border: 0px;
+    margin: 0px;
+    text-decoration: underline;
+    background-color: antiquewhite;
+    padding-bottom: 10px;
+}
+
+.sectionintros {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-size: large;
+    background-color: antiquewhite;
+    padding-bottom: 15px;
+    border-bottom: 5px;
+    border-style: dashed;
+    border-color: black;
+}
 .sectionareas {
     padding: 0px;
     border: 0px;
     margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-    .sectiontitles {
-        padding: 0px;
-        border: 0px;
-        margin: 0px;
-    }
-
-    .sectionintros {
-        padding: 0px;
-        border: 0px;
-        margin: 0px;
-    }
+.underconstruction {
+    padding: 50px;
+    border: 5px;
+    margin: 20px;
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-color: yellow;
+    font-size: x-large;
+    font-weight: bold;
+}
 
 /* PAGE TITLE */
 
@@ -257,34 +282,140 @@ body {
 /* STATIONARY */
 
 #stationary {
-    padding: 0px;
+    padding: 25px;
     border: 0px;
     margin: 0px;
 }
+
+    .stationaryitems {
+        padding: 10px;
+        border: 2px;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        background-color: yellow;
+        border-style: dashed;
+        border-color: black;
+        height: min-content;
+        width: min-content;
+    }
+
+    .stationaryinfo {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        font-weight: bold;
+    }
+
+    .stationaryimages {
+        padding: 0px;
+        border: 0px;
+        margin: 5px;
+    }
 
 /* PINS, STICKERS, & ICONS */
 
-# {
-    padding: 0px;
+#pinsstickersicons {
+    padding: 25px;
     border: 0px;
     margin: 0px;
 }
+
+    .pinsstickersiconsitems {
+        padding: 10px;
+        border: 2px;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        background-color: yellow;
+        border-style: dashed;
+        border-color: black;
+        height: min-content;
+        width: min-content;
+    }
+
+    .pinsstickersiconsinfo {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        font-weight: bold;
+    }
+
+    .pinsstickersiconsimages {
+        padding: 0px;
+        border: 0px;
+        margin: 5px;
+    }
+
 
 /* PRINTS & BACKGROUNDS */
 
-# {
-    padding: 0px;
+#printsbacks {
+    padding: 25px;
     border: 0px;
     margin: 0px;
 }
+
+    .printsbacksitems {
+        padding: 10px;
+        border: 2px;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        background-color: yellow;
+        border-style: dashed;
+        border-color: black;
+        height: min-content;
+        width: min-content;
+    }
+
+    .printsbacksinfo {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        font-weight: bold;
+    }
+
+    .printsbacksimages {
+        padding: 0px;
+        border: 0px;
+        margin: 5px;
+    }
+
 
 /* SITE DECORATIONS */
 
-# {
-    padding: 0px;
+#sitedeco {
+    padding: 25px;
     border: 0px;
     margin: 0px;
 }
+
+    .sitedecoitems {
+        padding: 10px;
+        border: 2px;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        background-color: yellow;
+        border-style: dashed;
+        border-color: black;
+        height: min-content;
+        width: min-content;
+    }
+
+    .sitedecoinfo {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        font-weight: bold;
+    }
+
+    .sitedecoimages {
+        padding: 0px;
+        border: 0px;
+        margin: 5px;
+    }
 
 /* TYPEFACES */
 
