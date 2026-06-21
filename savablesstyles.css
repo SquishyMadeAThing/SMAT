@@ -176,12 +176,62 @@ body {
     padding: 0px;
     border: 0px;
     margin: 0px;
-    background-color: blue;
+    margin-bottom: 30px;
 }
 
 /* PAGE INTRO AND ART */
 
+#pageintro {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    color: white;
+    font-size: x-large;
+}
+
 /* JUMP BUTTONS */
+
+#jumpbuttonarea {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+    .jumpbuttons {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+    }
+
+        .upperjumps {
+            margin-bottom: 35px;
+        }
+
+        .lowerjumps {
+            margin-top: 35px;
+        }
+
+            .jumpimages {
+                padding: 0px;
+                border: 0px;
+                margin: 0px;
+                width: 100px;
+            }
+
+            .jumptitles {
+                padding: 5px;
+                border: 2px;
+                margin: 0px;
+                background-color: antiquewhite;
+                border-color: black;
+                border-style: solid;
+                color: black;
+                text-decoration: none;
+            }
 
 /* STATIONARY */
 
