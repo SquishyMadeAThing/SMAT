@@ -170,6 +170,26 @@ body {
             background-color: transparent;
         }
 
+/* SECTIONS */
+]
+.sectionareas {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+    .sectiontitles {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+    }
+
+    .sectionintros {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+    }
+
 /* PAGE TITLE */
 
 #pagetitle {
@@ -187,6 +207,7 @@ body {
     margin: 0px;
     color: white;
     font-size: x-large;
+    font-weight: bold;
 }
 
 /* JUMP BUTTONS */
@@ -235,21 +256,75 @@ body {
 
 /* STATIONARY */
 
+#stationary {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
 /* PINS, STICKERS, & ICONS */
+
+# {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
 
 /* PRINTS & BACKGROUNDS */
 
+# {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
 /* SITE DECORATIONS */
+
+# {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
 
 /* TYPEFACES */
 
+# {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
 /* SOUND EFFECTS */
+
+# {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
 
 /* INSTRUMENTAL MUSIC */
 
+# {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
 /* GAME DEMOS */
 
+# {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
 /* OTHER */
+
+# {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
 
 /* FOOTER */
 
