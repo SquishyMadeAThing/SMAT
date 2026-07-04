@@ -36,6 +36,15 @@ body {
         background-color: gray;
     }
 
+    .buttons {
+        color: white;
+        border-color: black;
+        border: 5px;
+        border-style: groove;
+        background-color: gray;
+        text-align: center;
+    }
+
     p {
         color: white;
         font-weight: bolder;
@@ -542,19 +551,25 @@ body {
         #allthoughtbubblebutton {
             float: left;
             width: 200px;
-            height: 60px;
+            height: 25px;
             text-align: center;
             padding: 10px;
             margin: 20px;
+            font-size: larger;
+            font-weight: bold;
+            text-decoration: none;
         }
 
         #thoughtbubcontactbutton {
             float: right;
             width: 200px;
-            height: 60px;
+            height: 25px;
             text-align: center;
             padding: 10px;
             margin: 20px;
+            font-size: larger;
+            font-weight: bold;
+            text-decoration: none;
         }
 
 /* jamplayer and sketchbook */
