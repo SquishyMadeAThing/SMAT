@@ -36,6 +36,15 @@ body {
         background-color: gray;
     }
 
+    .buttons {
+        color: white;
+        border-color: black;
+        border: 5px;
+        border-style: groove;
+        background-color: gray;
+        text-align: center;
+    }
+
     p {
         color: white;
         font-weight: bolder;
@@ -483,9 +492,11 @@ body {
                 width: 300px;
                 height: 150px;
                 text-align: center;
-                overflow: auto;
+                overflow-y: hidden;
                 margin-top: 6%;
                 color: black;
+                padding-left: 20px;
+                padding-right: 20px;
             }
 
             #bubblepost7 {
@@ -496,16 +507,40 @@ body {
                 width: 400px;
                 height: 250px;
                 text-align: center;
-                overflow: auto;
+                overflow-y: hidden;
                 margin-right: -8%;
                 margin-top: -2%;
                 color: black;
+                padding-left: 20px;
+                padding-right: 20px;
             }
 
                     .thoughtbubbles {
                     margin: 0px;
                     border: 0px;
                     padding: 0px;
+                }
+
+                .allposts {
+                    padding: 10px;
+                    border: 0px;
+                    margin: 10px;
+                    min-height: 100px;
+                    max-height: 350px;
+                    overflow-y: scroll;
+                    border-bottom: 3px;
+                    border-style: dashed;
+                    border-color: plum;
+                    text-align: left;
+                }
+
+                .bubpostparagraphs {
+                    color: black;
+                    font-weight: normal;
+                }
+
+                    .postimages {
+                    width: 100%;
                 }
 
     #thoughtbubblebuttons {
@@ -518,19 +553,25 @@ body {
         #allthoughtbubblebutton {
             float: left;
             width: 200px;
-            height: 60px;
+            height: 25px;
             text-align: center;
             padding: 10px;
             margin: 20px;
+            font-size: larger;
+            font-weight: bold;
+            text-decoration: none;
         }
 
         #thoughtbubcontactbutton {
             float: right;
             width: 200px;
-            height: 60px;
+            height: 25px;
             text-align: center;
             padding: 10px;
             margin: 20px;
+            font-size: larger;
+            font-weight: bold;
+            text-decoration: none;
         }
 
 /* jamplayer and sketchbook */
