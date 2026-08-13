@@ -478,10 +478,12 @@ body {
                 width: 400px;
                 height: 250px;
                 text-align: center;
-                overflow: auto;
-                margin-left: -10%;
-                margin-top: -3%;
+                overflow-y: hidden;
+                margin-right: -8%;
+                margin-top: -2%;
                 color: black;
+                padding-left: 20px;
+                padding-right: 20px;
             }
             
             #bubblepost6 {
