@@ -242,11 +242,11 @@ body {
                 width: 400px;
                 height: 250px;
                 text-align: center;
-                overflow-y: scroll;
-                justify-self: right;
-                margin-bottom: -5%;
-                margin-right: -5%;
+                overflow-y: hidden;
+                margin-top: -2%;
                 color: black;
+                padding-left: 20px;
+                padding-right: 20px;
             }
 
         #bubblerow2 {
